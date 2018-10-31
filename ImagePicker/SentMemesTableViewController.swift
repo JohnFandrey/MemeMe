@@ -49,7 +49,7 @@ class SentMemesTableViewController: UITableViewController {                     
         
     func displayError(_ error: String){
         // Code for displaying an alert notification was obtained at https://www.ioscreator.com/tutorials/display-alert-ios-tutorial-ios10.  The tutorial for displaying this type of alert was posted by Arthur Knopper on January 10, 2017.
-        let alertController = UIAlertController(title: "Error", message: info, preferredStyle: UIAlertControllerStyle.alert)
+        let alertController = UIAlertController(title: "Error", message: error, preferredStyle: UIAlertControllerStyle.alert)
         alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default,handler: nil))
         self.present(alertController, animated: true, completion: nil)
     }
